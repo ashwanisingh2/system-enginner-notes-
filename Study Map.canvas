@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"home","type":"file","file":"00 - Vault Homepage & Navigation/00-INDEX.md","x":-200,"y":-200,"width":300,"height":100,"color":"1"},
+		{"id":"roadmap","type":"file","file":"00 - Vault Homepage & Navigation/00-Study-Roadmap.md","x":-200,"y":0,"width":300,"height":100,"color":"2"},
+		{"id":"m1","type":"text","text":"🔌 **Module 01: Hardware Fundamentals**\nFocus: CPU, RAM, PSU, POST Diagnostics, and Laptops","x":200,"y":-400,"width":250,"height":120,"color":"3"},
+		{"id":"m2","type":"text","text":"🖥️ **Module 02: Operating Systems**\nFocus: Kernel, Registry, GPO, Logs, and Recovery Tools","x":500,"y":-400,"width":250,"height":100,"color":"3"},
+		{"id":"m3","type":"text","text":"🌐 **Module 03: Networking**\nFocus: OSI model, TCP/IP, IP config, Ports, DNS, DHCP, and Wi-Fi","x":800,"y":-400,"width":250,"height":100,"color":"3"},
+		{"id":"m4","type":"text","text":"🏢 **Module 04: Active Directory & M365**\nFocus: Domain controllers, Users, Groups, GPO links, Exchange, Entra ID","x":1100,"y":-400,"width":250,"height":100,"color":"3"},
+		{"id":"m5","type":"text","text":"🎟️ **Module 05: Help Desk & ITSM**\nFocus: ITIL v4, ServiceNow tickets, SLAs, and Remote Assistance","x":1100,"y":-200,"width":250,"height":100,"color":"4"},
+		{"id":"m6","type":"text","text":"📦 **Module 06: Software Support**\nFocus: Office 365, Outlook profile, Teams, Browsers, and Printers spooler","x":800,"y":-200,"width":250,"height":100,"color":"4"},
+		{"id":"m7","type":"text","text":"🛡️ **Module 07: Cybersecurity**\nFocus: Malware quarantine, EDR systems, BitLocker keys, UAC, and Firewalls","x":500,"y":-200,"width":250,"height":100,"color":"4"},
+		{"id":"m8","type":"text","text":"🔍 **Module 08: Advanced Troubleshooting**\nFocus: 7-step process, BSOD dumps, slow PC fixes, Sysinternals","x":200,"y":-200,"width":250,"height":100,"color":"4"},
+		{"id":"m9","type":"text","text":"⚙️ **Module 09: Command Line & Scripts**\nFocus: CMD tricks, PowerShell cmdlets, Batch files, and remote execution","x":200,"y":0,"width":250,"height":100,"color":"5"},
+		{"id":"m10","type":"text","text":"📡 **Module 10: Endpoint Management**\nFocus: SCCM deployments, Intune MDM, and Windows Autopilot OOBE","x":500,"y":0,"width":250,"height":100,"color":"5"},
+		{"id":"m11","type":"text","text":"💼 **Module 11: Interview Prep**\nFocus: Top 100 Q&As, STAR scenario mock answers, resume layout tips","x":800,"y":0,"width":250,"height":100,"color":"6"},
+		{"id":"m12_13","type":"text","text":"📋 **Module 12 & 13: Reference & SOPs**\nFocus: Keyboard keys, ports table, error codes, and daily user onboarding checklist","x":1100,"y":0,"width":250,"height":100,"color":"6"}
+	],
+	"edges":[
+		{"id":"e_home_road","fromNode":"home","fromSide":"bottom","toNode":"roadmap","toSide":"top"},
+		{"id":"e1","fromNode":"roadmap","fromSide":"right","toNode":"m1","toSide":"left"},
+		{"id":"e2","fromNode":"m1","fromSide":"right","toNode":"m2","toSide":"left"},
+		{"id":"e3","fromNode":"m2","fromSide":"right","toNode":"m3","toSide":"left"},
+		{"id":"e4","fromNode":"m3","fromSide":"right","toNode":"m4","toSide":"left"},
+		{"id":"e5","fromNode":"m4","fromSide":"bottom","toNode":"m5","toSide":"top"},
+		{"id":"e6","fromNode":"m5","fromSide":"left","toNode":"m6","toSide":"right"},
+		{"id":"e7","fromNode":"m6","fromSide":"left","toNode":"m7","toSide":"right"},
+		{"id":"e8","fromNode":"m7","fromSide":"left","toNode":"m8","toSide":"right"},
+		{"id":"e9","fromNode":"m8","fromSide":"bottom","toNode":"m9","toSide":"top"},
+		{"id":"e10","fromNode":"m9","fromSide":"right","toNode":"m10","toSide":"left"},
+		{"id":"e11","fromNode":"m10","fromSide":"right","toNode":"m11","toSide":"left"},
+		{"id":"e12","fromNode":"m11","fromSide":"right","toNode":"m12_13","toSide":"left"}
+	]
+}

@@ -1,0 +1,10 @@
+# Obsidian system files
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/backups/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
